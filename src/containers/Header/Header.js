@@ -1,4 +1,5 @@
 import Restaurant from "../../assets/restaurant.jpg";
+import LargeButton from "../../components/LargeButton/LargeButton";
 
 const Header = () => {
     return (
@@ -30,12 +31,10 @@ const Header = () => {
                             it a popular place for a meal any time of the day.
                         </p>
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-                            <button
-                                type="button"
-                                className="btn btn-primary btn-lg px-4 me-md-2"
-                            >
-                                Reserve a Table
-                            </button>
+                            <LargeButton
+                                text="Reserve a Table"
+                                link="/booking"
+                            />
                         </div>
                     </div>
                 </div>

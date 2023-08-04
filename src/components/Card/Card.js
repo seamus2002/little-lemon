@@ -1,3 +1,5 @@
+import Button from "../Button/Button";
+
 const Card = (props) => {
     return (
         <div className="card shadow-sm">
@@ -18,9 +20,7 @@ const Card = (props) => {
                     nis lorem dolar iqsf is sf hp semet In dolar iqsf is sf hp
                     semet In
                 </p>
-                <a href="/" class="btn btn-primary">
-                    Order a Delivery
-                </a>
+                <Button text="Order a Delivery" link="/" />
             </div>
         </div>
     );
