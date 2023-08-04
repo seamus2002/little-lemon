@@ -1,14 +1,14 @@
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Nav from "./components/Nav/Nav";
+import Footer from "./containers/Footer/Footer";
+import Header from "./containers/Header/Header";
+import Main from "./containers/Main/Main";
+import Nav from "./containers/Nav/Nav";
 
 function App() {
     return (
         <>
-            <Header />
             <Nav />
+            <Header />
             <Main />
             <Footer />
         </>
