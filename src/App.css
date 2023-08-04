@@ -1,3 +1,52 @@
+body {
+    background-color: #edefee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Markazi Text", serif;
+}
+
+p {
+    font-family: "Karla", sans-serif;
+}
+
+a {
+    font-family: "Karla", sans-serif;
+}
+
+.btn-primary,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #f4ce14;
+    border-color: #f4ce14;
+    color: #333333;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #dea407 !important;
+    border-color: #dea407 !important;
+    color: #333333 !important;
+}
+
+.text-yellow {
+    color: #f4ce14;
+}
+
+.price {
+    color: #ee9972;
+}
+
+.bg-green {
+    background-color: #495e57;
+    color: #edefee;
+}
+
 .navbar-nav > li {
     padding-left: 30px;
     padding-right: 30px;

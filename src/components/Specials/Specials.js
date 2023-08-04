@@ -26,7 +26,7 @@ const Specials = () => {
     ];
 
     return (
-        <div className="container">
+        <div className="container px-4 py-5">
             <h2>Specials</h2>
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 {foodItems.map((item) => {

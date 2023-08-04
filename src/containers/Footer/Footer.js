@@ -1,3 +1,5 @@
+import LittleLogo from "../../assets/Little Logo.png";
+
 const Footer = () => {
     return (
         <footer className="container">
@@ -7,11 +9,14 @@ const Footer = () => {
                         href="/"
                         className="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
                     >
-                        {/* <svg className="bi me-2" width="40" height="32">
-                        <use xlink:href="#bootstrap"></use>
-                    </svg> */}
+                        <img
+                            src={LittleLogo}
+                            alt="Logo"
+                            className="bi me-2"
+                            width="100"
+                            height="176"
+                        />
                     </a>
-                    <p className="text-body-secondary">© 2023</p>
                 </div>
 
                 <div className="col mb-3"></div>

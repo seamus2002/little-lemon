@@ -4,7 +4,7 @@ import Testimonials from "../../components/Testimonials/Testimonials";
 
 const Main = () => {
     return (
-        <main className="container">
+        <main className="">
             <Specials />
             <Testimonials />
             <About />
