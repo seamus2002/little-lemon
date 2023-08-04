@@ -17,6 +17,7 @@ p {
 
 a {
     font-family: "Karla", sans-serif;
+    text-decoration: none;
 }
 
 .btn-primary,
