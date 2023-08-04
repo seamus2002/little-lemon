@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/Logo.svg";
 
 const Nav = () => {
@@ -24,13 +25,9 @@ const Nav = () => {
                 >
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a
-                                className="nav-link active"
-                                aria-current="page"
-                                href="/"
-                            >
+                            <NavLink className="nav-link" to="/">
                                 HOME
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/">
@@ -43,9 +40,9 @@ const Nav = () => {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/">
+                            <NavLink className="nav-link" to="/booking">
                                 RESERVATIONS
-                            </a>
+                            </NavLink>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/">
