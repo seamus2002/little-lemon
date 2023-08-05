@@ -1,35 +1,29 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const BookingForm = () => {
+const BookingForm = ({ availableTimes, dispatchOnDateChange, submitForm }) => {
     const [date, setDate] = useState("");
-    const [time, setTime] = useState("17:00");
+    const [time, setTime] = useState(availableTimes[0]);
     const [guests, setGuests] = useState(1);
     const [occasion, setOccasion] = useState("None");
-    const [availableTimes] = useState([
-        "17:00",
-        "18:00",
-        "19:00",
-        "20:00",
-        "21:00",
-        "22:00",
-    ]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Perform reservation submission logic here
+        submitForm({ date, time, guests, occasion });
+    };
+
+    const handleDateChange = (e) => {
+        setDate(e.target.value);
+        dispatchOnDateChange(e.target.value);
     };
 
     return (
-        <form
-            style={{ display: "grid", maxWidth: "200px", gap: "20px" }}
-            onSubmit={handleSubmit}
-        >
+        <form onSubmit={handleSubmit}>
             <label htmlFor="res-date">Choose date</label>
             <input
                 type="date"
                 id="res-date"
                 value={date}
-                onChange={(e) => setDate(e.target.value)}
+                onChange={handleDateChange}
             />
 
             <label htmlFor="res-time">Choose time</label>
