@@ -59,6 +59,14 @@ a {
     padding-right: 30px;
 }
 
+.card {
+    min-height: 350px;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
 /* Form */
 form {
     display: grid;

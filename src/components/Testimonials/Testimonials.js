@@ -1,30 +1,34 @@
 import Testimony from "../Testimony/Testimony";
+import man1 from "../../assets/man1.jpg";
+import woman1 from "../../assets/woman1.jpg";
+import woman2 from "../../assets/woman2.jpg";
+import woman3 from "../../assets/woman3.jpg";
 
 const Testimonials = () => {
     const testimonyData = [
         {
-            name: "Adam",
-            rating: 5,
-            review: "Lorem ipsum",
-            // image: greekSalad,
+            name: "Jessica P.",
+            rating: "★★★★★",
+            review: "I celebrated my anniversary there, and it turned out to be an exceptional evening. The ambiance is romantic and cozy, setting the stage for an intimate dinner.",
+            image: woman1,
         },
         {
-            name: "Bianca",
-            rating: 5,
-            review: "Lorem ipsum",
-            // image: bruchetta,
+            name: "Michael R.",
+            rating: "★★★★★",
+            review: "The consistency in their high-quality ingredients and innovative recipes keeps me coming back for more. The staff is always going the extra mile to make you feel like a cherished guest.",
+            image: man1,
         },
         {
-            name: "Cole",
-            rating: 4.5,
-            review: "Lorem ipsum",
-            // image: lemonDessert,
+            name: "Emily L.",
+            rating: "★★★★★",
+            review: "As a food enthusiast, I'm always on the lookout for unique dining experiences, and Little Lemon exceeded my expectations. This hidden gem is a treasure trove of delightful surprises.",
+            image: woman2,
         },
         {
-            name: "Dana",
-            rating: 5,
-            review: "Lorem ipsum",
-            // image: lemonDessert,
+            name: "Sarah T.",
+            rating: "★★★★★",
+            review: "I've fallen in love with the charming ambiance and delectable dishes at Little Lemon! The menu is a delightful journey through culinary creativity, and every bite is a burst of flavors.",
+            image: woman3,
         },
     ];
     return (

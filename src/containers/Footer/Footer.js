@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LittleLogo from "../../assets/Little Logo.png";
 
 const Footer = () => {
@@ -26,34 +27,52 @@ const Footer = () => {
                         <h5>Navigation</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
+                                <Link
+                                    to="/"
+                                    className="nav-link p-0 text-reset"
+                                >
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
+                                <Link
+                                    to="/"
+                                    className="nav-link p-0 text-reset"
+                                >
                                     About
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
+                                <Link
+                                    to="/"
+                                    className="nav-link p-0 text-reset"
+                                >
                                     Menu
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
+                                <Link
+                                    to="/booking"
+                                    className="nav-link p-0 text-reset"
+                                >
                                     Reservations
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
+                                <Link
+                                    to="/"
+                                    className="nav-link p-0 text-reset"
+                                >
                                     Order Online
-                                </a>
+                                </Link>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
+                                <Link
+                                    to="/"
+                                    className="nav-link p-0 text-reset"
+                                >
                                     Log In
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -62,19 +81,13 @@ const Footer = () => {
                         <h5>Contact</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
-                                    Address
-                                </a>
+                                123 S. Citrus Avenue
+                                <br />
+                                Chicago, IL 60610
                             </li>
+                            <li className="nav-item mb-2">(312) 555-1234</li>
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
-                                    Phone Number
-                                </a>
-                            </li>
-                            <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
-                                    Email
-                                </a>
+                                contact@littlelemonchicago.com
                             </li>
                         </ul>
                     </div>
@@ -83,17 +96,32 @@ const Footer = () => {
                         <h5>Social Media</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
+                                <a
+                                    href="https://www.instagram.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="nav-link p-0 text-reset"
+                                >
                                     Instagram
                                 </a>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
+                                <a
+                                    href="https://www.facebook.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="nav-link p-0 text-reset"
+                                >
                                     Facebook
                                 </a>
                             </li>
                             <li className="nav-item mb-2">
-                                <a href="/" className="nav-link p-0 text-reset">
+                                <a
+                                    href="https://twitter.com/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="nav-link p-0 text-reset"
+                                >
                                     Twitter
                                 </a>
                             </li>
