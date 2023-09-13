@@ -29,7 +29,7 @@ const Nav = () => {
                                 HOME
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="/">
                                 ABOUT
                             </a>
@@ -38,13 +38,13 @@ const Nav = () => {
                             <a className="nav-link" href="/">
                                 MENU
                             </a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/booking">
                                 RESERVATIONS
                             </NavLink>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="/">
                                 ORDER ONLINE
                             </a>
@@ -53,7 +53,7 @@ const Nav = () => {
                             <a className="nav-link" href="/">
                                 LOG IN
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
